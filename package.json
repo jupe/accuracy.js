@@ -1,0 +1,29 @@
+{
+  "name": "accuracy.js",
+  "version": "0.1.0",
+  "description": "High resolution time utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jupe/accuracy.js.git"
+  },
+  "keywords": [
+    "time",
+    "accuracy",
+    "hrtime",
+    "interval",
+    "setInterval",
+    "clearInterval",
+    "frequency",
+    "occurence"
+  ],
+  "author": "Jussi Vatjus-Anttila <jussiva@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jupe/accuracy.js/issues"
+  },
+  "homepage": "https://github.com/jupe/accuracy.js#readme"
+}
