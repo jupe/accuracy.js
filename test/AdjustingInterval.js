@@ -13,7 +13,7 @@ describe('AdjustingInterval', function () {
         done();
       }, 10);
     });
-    it('args', function () {
+    it('args', function (done) {
       const timer = setInterval((...args) => {
         clearInterval(timer);
         expect(args[0]).to.be.equal('a');
