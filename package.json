@@ -4,7 +4,8 @@
   "description": "High resolution time utils",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "MOCHA_FILE=junit/test-results.xml istanbul cover -- _mocha --recursive -R mocha-circleci-reporter",
+    "lint": "eslint src test"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,14 @@
   "bugs": {
     "url": "https://github.com/jupe/accuracy.js/issues"
   },
-  "homepage": "https://github.com/jupe/accuracy.js#readme"
+  "homepage": "https://github.com/jupe/accuracy.js#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.10.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "mocha-circleci-reporter": "0.0.3",
+    "sinon": "^7.1.1"
+  }
 }
