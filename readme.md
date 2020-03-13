@@ -1,6 +1,6 @@
 ## accuracy.js
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jupe/accuracy.js.svg)](https://greenkeeper.io/)
+
 
 High resolution time tools
 
